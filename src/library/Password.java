@@ -154,21 +154,5 @@ public class Password {
 
 
 
-    private static Character[] toCharacterArray( String s ) {
-
-        if ( s == null ) {
-          return null;
-        }
-     
-        int len = s.length();
-        Character[] array = new Character[len];
-        for (int i = 0; i < len ; i++) {
-           array[i] = s.charAt(i);
-        }
-     
-        return array;
-     }
-
-
 
 }
